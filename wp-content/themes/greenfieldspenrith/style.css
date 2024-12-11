@@ -489,6 +489,7 @@ header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-
   z-index: 1000 !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
+  box-shadow: 10px 0 10px black;
 }
 header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu {
   border: 0 !important;
