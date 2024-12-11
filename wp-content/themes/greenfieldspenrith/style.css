@@ -1,0 +1,540 @@
+/*
+Theme Name: Greenfields Penrith
+Author: Reasonably Good
+Template:   twentytwentyfive
+Text Domain:  greenfieldspenrith
+
+*/
+html {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "avenir", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  background: #fff;
+  font-size: 17.5px;
+  margin: 0 auto;
+  min-height: 100vh;
+  line-height: 1.45;
+  --wp--preset--font-size--medium: 18px;
+  --wp--preset--font-size--large: 24px;
+}
+
+p {
+  font-weight: 400;
+}
+
+strong, b {
+  font-weight: 700;
+}
+strong em, b em {
+  font-style: italic;
+}
+
+h1, .h1 {
+  font-weight: 700;
+}
+
+.bg-green-one, .has-green-one-background-color {
+  background-color: #15605a;
+}
+.bg-green-one h1, .bg-green-one .h1, .bg-green-one h2, .bg-green-one .h2, .bg-green-one h3, .bg-green-one .h3, .bg-green-one h4, .bg-green-one .h4, .bg-green-one p, .bg-green-one a, .bg-green-one p a, .has-green-one-background-color h1, .has-green-one-background-color .h1, .has-green-one-background-color h2, .has-green-one-background-color .h2, .has-green-one-background-color h3, .has-green-one-background-color .h3, .has-green-one-background-color h4, .has-green-one-background-color .h4, .has-green-one-background-color p, .has-green-one-background-color a, .has-green-one-background-color p a {
+  background-color: #15605a;
+}
+.bg-green-one .btn, .has-green-one-background-color .btn {
+  background-color: green-one-dark;
+}
+.bg-green-one .btn:hover, .has-green-one-background-color .btn:hover {
+  background-color: green-one-dark;
+  color: green-one-light;
+}
+
+.wp-block-button.bg-green-one {
+  background-color: #15605a;
+  color: #fff;
+}
+.wp-block-button.bg-green-one a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-green-one-background-color {
+  background-color: #15605a;
+}
+.wp-block-button .wp-block-button__link.has-green-one-background-color:hover {
+  background-color: #0c3633 !important;
+}
+
+.wp-block-button.border-green-one {
+  background: transparent;
+  border: 1px solid #15605a;
+}
+.wp-block-button.border-green-one a.wp-block-button__link {
+  color: #15605a;
+}
+.wp-block-button.border-green-one a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.green-one, .has-green-one-color {
+  color: #15605a;
+}
+.green-one a, .green-one p a, .has-green-one-color a, .has-green-one-color p a {
+  color: #15605a;
+}
+.bg-green-two, .has-green-two-background-color {
+  background-color: #327869;
+}
+.bg-green-two h1, .bg-green-two .h1, .bg-green-two h2, .bg-green-two .h2, .bg-green-two h3, .bg-green-two .h3, .bg-green-two h4, .bg-green-two .h4, .bg-green-two p, .bg-green-two a, .bg-green-two p a, .has-green-two-background-color h1, .has-green-two-background-color .h1, .has-green-two-background-color h2, .has-green-two-background-color .h2, .has-green-two-background-color h3, .has-green-two-background-color .h3, .has-green-two-background-color h4, .has-green-two-background-color .h4, .has-green-two-background-color p, .has-green-two-background-color a, .has-green-two-background-color p a {
+  background-color: #327869;
+}
+.bg-green-two .btn, .has-green-two-background-color .btn {
+  background-color: green-two-dark;
+}
+.bg-green-two .btn:hover, .has-green-two-background-color .btn:hover {
+  background-color: green-two-dark;
+  color: green-two-light;
+}
+
+.wp-block-button.bg-green-two {
+  background-color: #327869;
+  color: #fff;
+}
+.wp-block-button.bg-green-two a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-green-two-background-color {
+  background-color: #327869;
+}
+.wp-block-button .wp-block-button__link.has-green-two-background-color:hover {
+  background-color: #23544a !important;
+}
+
+.wp-block-button.border-green-two {
+  background: transparent;
+  border: 1px solid #327869;
+}
+.wp-block-button.border-green-two a.wp-block-button__link {
+  color: #327869;
+}
+.wp-block-button.border-green-two a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.green-two, .has-green-two-color {
+  color: #327869;
+}
+.green-two a, .green-two p a, .has-green-two-color a, .has-green-two-color p a {
+  color: #327869;
+}
+.bg-green-three, .has-green-three-background-color {
+  background-color: #50a06e;
+}
+.bg-green-three h1, .bg-green-three .h1, .bg-green-three h2, .bg-green-three .h2, .bg-green-three h3, .bg-green-three .h3, .bg-green-three h4, .bg-green-three .h4, .bg-green-three p, .bg-green-three a, .bg-green-three p a, .has-green-three-background-color h1, .has-green-three-background-color .h1, .has-green-three-background-color h2, .has-green-three-background-color .h2, .has-green-three-background-color h3, .has-green-three-background-color .h3, .has-green-three-background-color h4, .has-green-three-background-color .h4, .has-green-three-background-color p, .has-green-three-background-color a, .has-green-three-background-color p a {
+  background-color: #50a06e;
+}
+.bg-green-three .btn, .has-green-three-background-color .btn {
+  background-color: green-three-dark;
+}
+.bg-green-three .btn:hover, .has-green-three-background-color .btn:hover {
+  background-color: green-three-dark;
+  color: green-three-light;
+}
+
+.wp-block-button.bg-green-three {
+  background-color: #50a06e;
+  color: #fff;
+}
+.wp-block-button.bg-green-three a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-green-three-background-color {
+  background-color: #50a06e;
+}
+.wp-block-button .wp-block-button__link.has-green-three-background-color:hover {
+  background-color: #3f7e57 !important;
+}
+
+.wp-block-button.border-green-three {
+  background: transparent;
+  border: 1px solid #50a06e;
+}
+.wp-block-button.border-green-three a.wp-block-button__link {
+  color: #50a06e;
+}
+.wp-block-button.border-green-three a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.green-three, .has-green-three-color {
+  color: #50a06e;
+}
+.green-three a, .green-three p a, .has-green-three-color a, .has-green-three-color p a {
+  color: #50a06e;
+}
+.bg-green-four, .has-green-four-background-color {
+  background-color: #aae68c;
+}
+.bg-green-four h1, .bg-green-four .h1, .bg-green-four h2, .bg-green-four .h2, .bg-green-four h3, .bg-green-four .h3, .bg-green-four h4, .bg-green-four .h4, .bg-green-four p, .bg-green-four a, .bg-green-four p a, .has-green-four-background-color h1, .has-green-four-background-color .h1, .has-green-four-background-color h2, .has-green-four-background-color .h2, .has-green-four-background-color h3, .has-green-four-background-color .h3, .has-green-four-background-color h4, .has-green-four-background-color .h4, .has-green-four-background-color p, .has-green-four-background-color a, .has-green-four-background-color p a {
+  background-color: #aae68c;
+}
+.bg-green-four .btn, .has-green-four-background-color .btn {
+  background-color: green-four-dark;
+}
+.bg-green-four .btn:hover, .has-green-four-background-color .btn:hover {
+  background-color: green-four-dark;
+  color: green-four-light;
+}
+
+.wp-block-button.bg-green-four {
+  background-color: #aae68c;
+  color: #fff;
+}
+.wp-block-button.bg-green-four a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-green-four-background-color {
+  background-color: #aae68c;
+}
+.wp-block-button .wp-block-button__link.has-green-four-background-color:hover {
+  background-color: #8bdd62 !important;
+}
+
+.wp-block-button.border-green-four {
+  background: transparent;
+  border: 1px solid #aae68c;
+}
+.wp-block-button.border-green-four a.wp-block-button__link {
+  color: #aae68c;
+}
+.wp-block-button.border-green-four a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.green-four, .has-green-four-color {
+  color: #aae68c;
+}
+.green-four a, .green-four p a, .has-green-four-color a, .has-green-four-color p a {
+  color: #aae68c;
+}
+.bg-orange, .has-orange-background-color {
+  background-color: #ff6e3c;
+}
+.bg-orange h1, .bg-orange .h1, .bg-orange h2, .bg-orange .h2, .bg-orange h3, .bg-orange .h3, .bg-orange h4, .bg-orange .h4, .bg-orange p, .bg-orange a, .bg-orange p a, .has-orange-background-color h1, .has-orange-background-color .h1, .has-orange-background-color h2, .has-orange-background-color .h2, .has-orange-background-color h3, .has-orange-background-color .h3, .has-orange-background-color h4, .has-orange-background-color .h4, .has-orange-background-color p, .has-orange-background-color a, .has-orange-background-color p a {
+  background-color: #ff6e3c;
+}
+.bg-orange .btn, .has-orange-background-color .btn {
+  background-color: orange-dark;
+}
+.bg-orange .btn:hover, .has-orange-background-color .btn:hover {
+  background-color: orange-dark;
+  color: orange-light;
+}
+
+.wp-block-button.bg-orange {
+  background-color: #ff6e3c;
+  color: #fff;
+}
+.wp-block-button.bg-orange a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-orange-background-color {
+  background-color: #ff6e3c;
+}
+.wp-block-button .wp-block-button__link.has-orange-background-color:hover {
+  background-color: #ff4809 !important;
+}
+
+.wp-block-button.border-orange {
+  background: transparent;
+  border: 1px solid #ff6e3c;
+}
+.wp-block-button.border-orange a.wp-block-button__link {
+  color: #ff6e3c;
+}
+.wp-block-button.border-orange a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.orange, .has-orange-color {
+  color: #ff6e3c;
+}
+.orange a, .orange p a, .has-orange-color a, .has-orange-color p a {
+  color: #ff6e3c;
+}
+.bg-orange-light, .has-orange-light-background-color {
+  background-color: #fff0e1;
+}
+.bg-orange-light h1, .bg-orange-light .h1, .bg-orange-light h2, .bg-orange-light .h2, .bg-orange-light h3, .bg-orange-light .h3, .bg-orange-light h4, .bg-orange-light .h4, .bg-orange-light p, .bg-orange-light a, .bg-orange-light p a, .has-orange-light-background-color h1, .has-orange-light-background-color .h1, .has-orange-light-background-color h2, .has-orange-light-background-color .h2, .has-orange-light-background-color h3, .has-orange-light-background-color .h3, .has-orange-light-background-color h4, .has-orange-light-background-color .h4, .has-orange-light-background-color p, .has-orange-light-background-color a, .has-orange-light-background-color p a {
+  background-color: #fff0e1;
+}
+.bg-orange-light .btn, .has-orange-light-background-color .btn {
+  background-color: orange-light-dark;
+}
+.bg-orange-light .btn:hover, .has-orange-light-background-color .btn:hover {
+  background-color: orange-light-dark;
+  color: orange-light-light;
+}
+
+.wp-block-button.bg-orange-light {
+  background-color: #fff0e1;
+  color: #fff;
+}
+.wp-block-button.bg-orange-light a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-orange-light-background-color {
+  background-color: #fff0e1;
+}
+.wp-block-button .wp-block-button__link.has-orange-light-background-color:hover {
+  background-color: #ffd7ae !important;
+}
+
+.wp-block-button.border-orange-light {
+  background: transparent;
+  border: 1px solid #fff0e1;
+}
+.wp-block-button.border-orange-light a.wp-block-button__link {
+  color: #fff0e1;
+}
+.wp-block-button.border-orange-light a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.orange-light, .has-orange-light-color {
+  color: #fff0e1;
+}
+.orange-light a, .orange-light p a, .has-orange-light-color a, .has-orange-light-color p a {
+  color: #fff0e1;
+}
+.bg-grey, .has-grey-background-color {
+  background-color: #333;
+}
+.bg-grey h1, .bg-grey .h1, .bg-grey h2, .bg-grey .h2, .bg-grey h3, .bg-grey .h3, .bg-grey h4, .bg-grey .h4, .bg-grey p, .bg-grey a, .bg-grey p a, .has-grey-background-color h1, .has-grey-background-color .h1, .has-grey-background-color h2, .has-grey-background-color .h2, .has-grey-background-color h3, .has-grey-background-color .h3, .has-grey-background-color h4, .has-grey-background-color .h4, .has-grey-background-color p, .has-grey-background-color a, .has-grey-background-color p a {
+  background-color: #333;
+}
+.bg-grey .btn, .has-grey-background-color .btn {
+  background-color: grey-dark;
+}
+.bg-grey .btn:hover, .has-grey-background-color .btn:hover {
+  background-color: grey-dark;
+  color: grey-light;
+}
+
+.wp-block-button.bg-grey {
+  background-color: #333;
+  color: #fff;
+}
+.wp-block-button.bg-grey a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-grey-background-color {
+  background-color: #333;
+}
+.wp-block-button .wp-block-button__link.has-grey-background-color:hover {
+  background-color: #1a1a1a !important;
+}
+
+.wp-block-button.border-grey {
+  background: transparent;
+  border: 1px solid #333;
+}
+.wp-block-button.border-grey a.wp-block-button__link {
+  color: #333;
+}
+.wp-block-button.border-grey a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.grey, .has-grey-color {
+  color: #333;
+}
+.grey a, .grey p a, .has-grey-color a, .has-grey-color p a {
+  color: #333;
+}
+.bg-white, .has-white-background-color {
+  background-color: #fff;
+}
+.bg-white h1, .bg-white .h1, .bg-white h2, .bg-white .h2, .bg-white h3, .bg-white .h3, .bg-white h4, .bg-white .h4, .bg-white p, .bg-white a, .bg-white p a, .has-white-background-color h1, .has-white-background-color .h1, .has-white-background-color h2, .has-white-background-color .h2, .has-white-background-color h3, .has-white-background-color .h3, .has-white-background-color h4, .has-white-background-color .h4, .has-white-background-color p, .has-white-background-color a, .has-white-background-color p a {
+  background-color: #fff;
+}
+.bg-white .btn, .has-white-background-color .btn {
+  background-color: white-dark;
+}
+.bg-white .btn:hover, .has-white-background-color .btn:hover {
+  background-color: white-dark;
+  color: white-light;
+}
+
+.wp-block-button.bg-white {
+  background-color: #fff;
+  color: #fff;
+}
+.wp-block-button.bg-white a.wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-button .wp-block-button__link.has-white-background-color {
+  background-color: #fff;
+}
+.wp-block-button .wp-block-button__link.has-white-background-color:hover {
+  background-color: #e6e6e6 !important;
+}
+
+.wp-block-button.border-white {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.wp-block-button.border-white a.wp-block-button__link {
+  color: #fff;
+}
+.wp-block-button.border-white a.wp-block-button__link:hover {
+  outline: 2px solid;
+  background: transparent;
+}
+
+.white, .has-white-color {
+  color: #fff;
+}
+.white a, .white p a, .has-white-color a, .has-white-color p a {
+  color: #fff;
+}
+ul.is-style-checkmark-list {
+  padding-left: 17.5px;
+  list-style-type: "\f058";
+}
+ul.is-style-checkmark-list li {
+  margin-top: 0.75rem;
+  font-weight: 600;
+}
+ul.is-style-checkmark-list li::marker {
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+ul.is-style-checkmark-list.green li::marker {
+  color: #aae68c;
+}
+
+.container {
+  width: 100%;
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.wp-block-columns {
+  gap: 30px;
+}
+
+header.wp-block-template-part {
+  position: relative;
+}
+header.wp-block-template-part a {
+  text-decoration: none;
+}
+header.wp-block-template-part .wp-block-site-logo img.custom-logo {
+  top: -5px;
+  position: relative;
+}
+header.wp-block-template-part div.mega-menu-wrap {
+  position: static !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu {
+  position: static !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item a.mega-menu-link {
+  font-weight: 600 !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children a.mega-menu-link span.mega-indicator {
+  color: #aae68c !important;
+  display: inline-block !important;
+  float: unset !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children a.mega-menu-link span.mega-indicator:after {
+  content: "\f13a" !important;
+  display: block !important;
+  height: 13px !important;
+  width: 13px !important;
+  line-height: 13px !important;
+  background: #15605a !important;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  width: 100vw !important;
+  z-index: 1000 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu {
+  border: 0 !important;
+  width: auto !important;
+  left: auto !important;
+  position: static !important;
+  max-width: 1660px !important;
+  margin: auto !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+  font-weight: 600 !important;
+  display: inline-block !important;
+  margin-bottom: 0 !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-menu-item a.mega-menu-link span.mega-indicator {
+  rotate: -90deg;
+  margin-left: 10px !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-menu-item ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+  font-weight: 400 !important;
+  line-height: 1.3 !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-menu-item ul.mega-sub-menu li.mega-current-menu-item a.mega-menu-link {
+  color: #aae68c !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-current-menu-item a.mega-menu-link {
+  color: #aae68c !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li ul.mega-sub-menu li.mega-current-menu-item li a.mega-menu-link {
+  color: #fff !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li#mega-menu-143-0-0 {
+  background: linear-gradient(220deg, rgba(170, 230, 140, 0) 0%, rgba(170, 230, 140, 0.25) 100%) !important;
+  border: 1px solid #50a06e !important;
+  border-radius: 15px !important;
+  padding-top: 14px !important;
+  width: calc(33.33% - 30px) !important;
+  margin-right: 30px !important;
+}
+header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-has-children > ul.mega-sub-menu li.mega-menu-row ul.mega-sub-menu li#mega-menu-143-0-0 li.heat-pumps {
+  background-image: url("images/heat-pump-menu.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 93% 0 !important;
+  background-size: 150px !important;
+  padding-top: 40px !important;
+  margin-top: -40px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
