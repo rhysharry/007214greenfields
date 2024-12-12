@@ -64,3 +64,18 @@ function my_child_theme_editor_styles() {
 }
 add_action('admin_init', 'my_child_theme_editor_styles');
 
+
+function enqueue_scroll_class_script() {
+    if (wp_is_mobile()) {
+        return;
+    }
+    wp_enqueue_script(
+        'add-class-on-scroll',
+        get_stylesheet_directory_uri() . '/js/page.js', // Adjust path as needed
+        array(),
+        null,
+        true // Load in the footer
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_scroll_class_script');
+

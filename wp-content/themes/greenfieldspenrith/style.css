@@ -445,7 +445,10 @@ ul.is-style-checkmark-list.green li::marker {
 }
 
 header.wp-block-template-part {
+  width: 100%;
   position: relative;
+  z-index: 999;
+  background: white;
 }
 header.wp-block-template-part a {
   text-decoration: none;
@@ -536,6 +539,12 @@ header.wp-block-template-part div.mega-menu-wrap ul.mega-menu li.mega-menu-item-
   background-size: 150px !important;
   padding-top: 40px !important;
   margin-top: -40px !important;
+}
+header.wp-block-template-part.scrolled {
+  position: fixed;
+}
+header.wp-block-template-part.scrolled img.custom-logo {
+  max-width: 120px;
 }
 
 /*# sourceMappingURL=style.css.map */

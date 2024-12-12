@@ -173,7 +173,10 @@ ul.is-style-checkmark-list {
 }
 
 header.wp-block-template-part {
+  width: 100%;
   position: relative;
+  z-index: 999;
+  background: white;
   a {
     text-decoration: none;
    }
@@ -291,5 +294,11 @@ header.wp-block-template-part {
               }
             }
           }
+    }
+    &.scrolled {
+      position: fixed;
+      img.custom-logo {
+        max-width: 120px;
+      }
     }
 }
